@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head.ejs %>
+</head>
+
+<body class="container">
+    <header>
+        <% include ../partials/header.ejs %>
+    </header>
+
+    <main>
+        <h2>Tim Prado</h2>
+        <div class="jumbotron">
+            <h1>Input Number:
+                <%= inputNumber %>
+            </h1>
+
+            <!-- NOTE ilker using new ES5 forEach below, instead of conventional for loop of above -->
+            <h1>Result Number of cube:
+                <%= resultNumber %>
+            </h1>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+
+</html>
